@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../fontawesome-free-5.11.2-web/css/all.min.css" />
+  <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="../css/main.css" />
+  <title>Edustage Education</title>
+</head>
+
+<body>
+  <header class="header blog-details-page">
+    <form class="search-form" hidden>
+      <div class="d-flex container p-1">
+        <input type="search" class="form-control border-0 rounded-0 px-2" placeholder="Search Here..."
+          aria-label="search" />
+        <button class="close-search-form border-0 bg-transparent mx-2 text-white">
+          X
+        </button>
+      </div>
+    </form>
+    <nav class="navbar container navbar-expand-lg">
+      <div class="container-fluid d-flex justify-content-between py-2 flex-wrap">
+        <div>
+          <a href="../index.html" class="navbar-brand"><img src="../assets/images/logo2.webp" alt="logo" /></a>
+        </div>
+        <button class="navbar-toggler border-0" data-bs-toggle="collapse" data-bs-target="#navbar" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse w-sm-100" id="navbar">
+          <ul class="navbar-nav show">
+            <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="pages-link-dropdown" data-bs-toggle="dropdown"
+                aria-expanded="false">Pages</a>
+              <ul class="dropdown-menu" aria-labelledby="pages-link-dropdown">
+                <li>
+                  <a class="dropdown-item" href="courses.html">Courses</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="course-details.html">Course details</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Elements</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="blog-link-dropdown" data-bs-toggle="dropdown"
+                aria-expanded="false">Blog</a>
+              <ul class="dropdown-menu" aria-labelledby="blog-link-dropdown">
+                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                <li>
+                  <a class="dropdown-item" href="blog-details.html">Blog details</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="/" class="nav-link">Contact</a></li>
+            <li class="nav-item me-auto">
+              <a href="#" class="nav-link"><i class="fa fa-search ul-search"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="banner-area d-flex justify-content-center align-items-center">
+      <div class="banner-overlay"></div>
+      <div class="banner-content text-center">
+        <h1 class="title text-capitalize mb-3">Contact us</h1>
+        <div class="html-location">
+          <a href="../index.html">Home</a><a href="courses.html">Contact</a>
+        </div>
+      </div>
+    </section>
+    <section class="contact-area section-gap">
+      <div class="container">
+        <div class="map-place"></div>
+        <div class="contact-info section-gap">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="address">
+                <span class="fa fa-home"></span>
+                <div class="address-info">
+                  <h6>California, USA</h6>
+                  <p>Santa Monica boulvard</p>
+                </div>
+              </div>
+              <div class="call">
+                <span class="fa fa-headphones"></span>
+                <div class="phone-info">
+                  <h6>00 (440) 9865 562</h6>
+                  <p>Mon to Fri 9am to 6 pm</p>
+                </div>
+              </div>
+              <div class="email-support">
+                <span class="fa fa-envelope"></span>
+                <div class="email">
+                  <h6>support@colorlib.com</h6>
+                  <p>Send us your query anytime!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-9">
+              <form action="">
+                <div class="row">
+                  <div class="col-md-6 pe-md-3 pe-0">
+                    <div class="form-group">
+                      <input type="text" name="name" class="form-control" placeholder="Enter your name"
+                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" />
+                    </div>
+                    <div class="form-group">
+                      <input type="text" name="email" class="form-control" placeholder="Enter email address"
+                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" />
+                    </div>
+                    <div class="form-group">
+                      <input type="text" name="subject" class="form-control" placeholder="Enter subject"
+                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter subject'" />
+                    </div>
+                  </div>
+                  <div class="col-md-6 ps-md-3 ps-0">
+                    <div class="form-group">
+                      <textarea name="" id="" cols="30" rows="5" placeholder="Enter message"
+                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter message'"
+                        class="form-control"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <button class="primary-btn">send message</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-md-6">
+          <h3 class="footer-title">Top Products</h3>
+          <p><a href="#" class="footer-link">Managed Website</a></p>
+          <p><a href="#" class="footer-link">Manage Reputation</a></p>
+          <p><a href="#" class="footer-link">Power Tools</a></p>
+          <p><a href="#" class="footer-link">Marketing Service</a></p>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h3 class="footer-title">Quick links</h3>
+          <p><a href="#" class="footer-link">Jobs</a></p>
+          <p><a href="#" class="footer-link">Brand Assets</a></p>
+          <p><a href="#" class="footer-link">Investor Relations</a></p>
+          <p><a href="#" class="footer-link">Terms of Service</a></p>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h3 class="footer-title">Features</h3>
+          <p><a href="#" class="footer-link">Jobs</a></p>
+          <p><a href="#" class="footer-link">Brand Assets</a></p>
+          <p><a href="#" class="footer-link">Investor Relations</a></p>
+          <p><a href="#" class="footer-link">Terms of Service</a></p>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h3 class="footer-title">Resourses</h3>
+          <p><a href="#" class="footer-link">Guides</a></p>
+          <p><a href="#" class="footer-link">Research</a></p>
+          <p><a href="#" class="footer-link">Experts</a></p>
+          <p><a href="#" class="footer-link">Agencies</a></p>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <h3 class="footer-title">Newsletter</h3>
+          <p>You can trust us. We only send promo offers.</p>
+          <div class="input-group">
+            <input type="email" name="subscribe" id="input-subscribe" placeholder="Your Email Address" />
+            <label for="subscribe">subscribe</label>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col copyright col-sm-8 col-12">
+          Copyright ©2021 All rights reserved | This template is made with
+          <b>&hearts;</b> by <a href="#">Colorlib</a>
+        </div>
+        <div
+          class="col footer-social-media-links col-sm-4 col-12 d-flex justify-content-sm-end align-center justify-content-start mt-4 mt-sm-0">
+          <div class="social-media-icon">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </div>
+          <div class="social-media-icon">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="social-media-icon">
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+          </div>
+          <div class="social-media-icon">
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+  <script src="../OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.min.js"></script>
+  <script src="../OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+  <script src="../js/index.js"></script>
+</body>
+
+</html>
