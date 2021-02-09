@@ -101,9 +101,4 @@ $(document).ready(function () {
 
   // Append the 'script' element to 'head'
   document.head.appendChild(script);
-
-  // lazyload
-  $('.owl-carousel').owlCarousel({
-    lazyLoad: true
-  });
 });
